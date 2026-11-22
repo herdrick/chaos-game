@@ -58,12 +58,9 @@ nextPoint = currentPoint + 1</pre>
     <pre class="codeExample">
 nextTargetIndex = math.randomInt(1, targetPointsLength+1)
 nextTarget = targetPoints[nextTargetIndex, :]
-midpoint = (currentPoint + nextTarget) / 2
-# Rotation around Z axis
-rotation = [[math.cos(math.pi/4), -math.sin(math.pi/4), 0],
-            [math.sin(math.pi/4), math.cos(math.pi/4), 0],
-            [0, 0, 1]]
-nextPoint = math.multiply(midpoint, rotation)</pre>
+pointTowardTarget = currentPoint + (nextTarget - currentPoint) * howFar
+rotation = [[math.cos(math.pi/4), -math.sin(math.pi/4), 0], [math.sin(math.pi/4), math.cos(math.pi/4), 0], [0, 0, 1]]
+nextPoint = math.multiply(pointTowardTarget, rotation)</pre>
   </div>
 
 </div>
