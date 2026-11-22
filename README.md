@@ -2,12 +2,12 @@
 
 These are fun tools for exploring the [Chaos Game](https://www.youtube.com/watch?v=k3V72Qvcn94).
 
+⚠️ Alpha Status: This is in active development. Expect changes to the MathJS execution sandbox and available bindings before 1.0.
+
 ## 3D
 Hosted, live: [chaos-game-3d.html](https://herdrick.github.io/chaos-game/chaos-game-3d.html)
 
 [Source](web/chaos-game-3d.html)
-
-⚠️ Alpha Status: This is in active development. Expect changes to the the MathJS execution sandbox and available bindings before 1.0. 
 
 ## 2D
 Hosted, live: [chaos-game.html](https://herdrick.github.io/chaos-game/chaos-game.html)
